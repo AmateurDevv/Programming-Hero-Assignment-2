@@ -277,6 +277,11 @@ ul > li{
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
+#dive{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(19, 19, 24, 0.05);
+}
 .h6{
     color: #131318;
     font-size: 24px;
@@ -345,9 +350,14 @@ footer{
 
 }
 
-hr{
+.hr2{
     margin:0 5%;
 }
+
+a{
+    color: black;
+}
+
 @media screen and (max-width: 600px) {
     .h2{
         font-size: 22px;
